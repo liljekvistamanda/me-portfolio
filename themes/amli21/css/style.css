@@ -27,7 +27,7 @@ body {
 
 .main {
     flex: 1 0 auto;
-    padding: 2em;
+    padding: 1em 5em 1em 5em;
 }
 
 .header, .footer {
@@ -43,8 +43,15 @@ body {
 
 /* Title */
 
-.title, .logo {
-    padding: 3em 3em 3em 0;
+.title {
+    padding: 3em 0 0 0;
+}
+
+/* Logo */
+
+.logo {
+    width: 40%;
+    padding: 3em 0 0 3em;
 }
 
 @media (max-width: 767px) {
@@ -64,7 +71,7 @@ body {
 }
 
 .title p {
-    font-style: italic;
+    /* font-style: italic; */
 }
 
 /* Footer */
@@ -74,6 +81,7 @@ body {
     justify-content: space-between;
     border-top: 1px solid #222;
     background-color: lightgrey;
+    padding: 0.5em 1em 0.5em 1em;
 }
 
 .footer a {
@@ -106,6 +114,11 @@ h1, h2, h3, h4, h5, h6 {
 
 img {
     max-width: 100%;
+}
+
+img[src*="#dino"] {
+    display: block;
+    margin-left: auto;
 }
 
 /* BELOW ARE PREPARED STYLES FOR CODE/PRE/BLOCKQUOTE, FEEL FREE TO REMOVE IT  */
