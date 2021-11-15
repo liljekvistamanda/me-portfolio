@@ -10,4 +10,4 @@ Webbsidan är uppbyggd på ett samspel mellan HTML, CSS och JavaScript. HTML st�
 
 De olika sidorna är skrivna i Markdown, som rena textfiler och dessa konverteras sedan till HTML.
 
-Webbsidan använder även en ""preprocessor", SASS (SCSS använder vi här, det är nyare). SASS kompileras sedan till CSS. SASS är uppbyggt som ett programmeringsspråk och ger möjlighet till extra funktionalitet som inte finns tillgängligt i CSS, t.ex. variabler och nesting.
+Webbsidan använder även en "preprocessor", SASS (SCSS använder vi här, det är nyare). SASS kompileras sedan till CSS. SASS är uppbyggt som ett programmeringsspråk och ger möjlighet till extra funktionalitet som inte finns tillgängligt i CSS, t.ex. variabler och nesting.
