@@ -1,5 +1,5 @@
 ---
-Title: css
+Title: CSS
 Description: css.
 Template: technology
 ---

@@ -1,5 +1,5 @@
 ---
-Title: sqlite
+Title: SQLite
 Description: sqlite
 Template: technology
 ---

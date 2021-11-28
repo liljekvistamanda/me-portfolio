@@ -1,5 +1,5 @@
 ---
-Title: javascript
+Title: JavaScript
 Description: javascript.
 Template: technology
 ---

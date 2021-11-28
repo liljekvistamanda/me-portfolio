@@ -1,5 +1,5 @@
 ---
-Title: python
+Title: Python
 Description: python.
 Template: technology
 ---

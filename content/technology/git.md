@@ -1,5 +1,5 @@
 ---
-Title: git
+Title: Git
 Description: git.
 Template: technology
 ---

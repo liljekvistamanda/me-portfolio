@@ -1,5 +1,5 @@
 ---
-Title: html
+Title: HTML
 Description: html.
 Template: technology
 ---

@@ -1,5 +1,5 @@
 ---
-Title: php
+Title: PHP
 Description: php.
 Template: technology
 ---
