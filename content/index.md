@@ -16,3 +16,40 @@ Direkt efter gymnasiet, år 2014, började jag läsa programmet systemvetenskap 
 Programmeringsintresset har länge funnits då jag som 11-åring upptäckte att man kunde fixa till sina profiler med HTML/CSS på stallet.se. Jag satt i många timmar för att få min profil precis som jag ville ha den.
 
 Nuförtiden hänger jag inte längre på stallet.se, utan istället tycker jag om att titta på serier, läsa, umgås med vänner och träna. Under pandemin har jag även skaffat mig ett nytt intresse - virkning! Jag virkar olika typer av gosedjur och accessoarer och jag tycker det är väldigt lugnande att få jobba kreativt med händerna i stressiga perioder.
+
+<!-- ---
+Title: Report
+Description: This is my report page.
+Template: report
+---
+
+Report
+==========================
+
+<div class="kmom-box">
+Kmom01
+</div>
+
+<div class="kmom-box">
+Kmom02
+</div>
+
+<div class="kmom-box">
+Kmom03
+</div>
+
+<div class="kmom-box">
+Kmom04
+</div>
+
+<div class="kmom-box">
+Kmom05
+</div>
+
+<div class="kmom-box">
+Kmom06
+</div>
+
+<div class="kmom-box project">
+Kmom10
+</div> -->

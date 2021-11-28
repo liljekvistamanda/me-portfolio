@@ -1,0 +1,48 @@
+.technology-article {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+
+.article-content {
+    padding: 8em 5em 5em 1em;
+}
+
+.sidebar {
+    padding: 3em 4em;
+
+    h3 {
+        text-align: right;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    li {
+        margin-top: 15%;
+        list-style: none;
+        text-align: center;
+        background-color: #cdcdcd;
+        padding: 0.5em;
+        border: 1px solid #222;
+    }
+
+    li:hover {
+        box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+    }
+}
+
+@media (max-width: 767px) {
+    .technology-article {
+        grid-template-columns: 1fr;
+    }
+
+    .sidebar {
+        display: none;
+    }
+
+    .article-content {
+        grid-column: span 1;
+        padding: 1.5em;
+    }
+}
