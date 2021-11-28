@@ -6594,6 +6594,16 @@ img {
   margin-left: auto;
 }
 
+@media (max-width: 767px) {
+  .logo {
+    width: 20%;
+  }
+}
+@media (max-width: 480px) {
+  img {
+    display: none;
+  }
+}
 .technologies {
   display: grid;
   gap: 3em 8em;
@@ -6771,12 +6781,6 @@ body {
 @media (max-width: 767px) {
   .title {
     padding: 1em 1em 1em 0;
-    min-width: 50%;
-  }
-
-  .logo {
-    padding: 1em 1em 1em 0;
-    max-width: 20%;
   }
 
   .main {
