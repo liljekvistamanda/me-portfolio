@@ -6673,8 +6673,8 @@ img {
   }
 }
 .technology-article {
-  display: grid;
-  grid-template-columns: 1fr 5fr;
+  display: flex;
+  flex-direction: row;
 }
 
 .article-content {
@@ -6704,7 +6704,9 @@ img {
 
 @media (max-width: 767px) {
   .technology-article {
-    grid-template-columns: 1fr;
+    flex-direction: column;
+    overflow-y: scroll;
+    overflow-x: hidden;
   }
 
   .sidebar {
@@ -6712,7 +6714,6 @@ img {
   }
 
   .article-content {
-    grid-column: span 1;
     padding: 1.5em;
   }
 }
