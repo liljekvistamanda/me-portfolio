@@ -1,13 +1,26 @@
-.technology-article {
+.analysis-article {
     display: flex;
     flex-direction: row;
 }
 
-.article-content {
-    padding: 8em 5em 5em 1em;
+.analysis-contents {
+    padding: 5em 5em 5em 1em;
+
+    h1 {
+        margin-bottom: 1em;
+    }
+
+    p {
+        text-align: left;
+    }
+
+    h2 {
+        text-align: left;
+        margin-top: 1em;
+    }
 }
 
-.sidebar {
+.sidebar-analysis {
     padding: 3em 4em;
 
     h3 {
@@ -24,7 +37,7 @@
         text-align: center;
         background-color: $box-color;
         padding: 0.5em;
-        border: 1px solid $border-color;;
+        border: 1px solid $border-color;
     }
 
     li:hover {
@@ -33,16 +46,16 @@
 }
 
 @media (max-width: 767px) {
-    .technology-article {
+    .analysis-article {
         flex-direction: column;
         display: flex;
     }
 
-    .sidebar {
+    .sidebar-analysis {
         display: none;
     }
 
-    .article-content {
+    .analysis-contents {
         padding: 1.5em;
     }
 }

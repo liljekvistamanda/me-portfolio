@@ -22,13 +22,13 @@
         margin-top: 15%;
         list-style: none;
         text-align: center;
-        background-color: $box-color;
+        background-color: $box-alternative-color;
         padding: 0.5em;
-        border: 1px solid $border-color;;
+        border: 1px solid $border-alternative-color;;
     }
 
     li:hover {
-        box-shadow: $box-shadow;
+        box-shadow: $box-alternative-shadow;
     }
 }
 

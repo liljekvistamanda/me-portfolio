@@ -1,4 +1,4 @@
-.technologies {
+.analysis {
     display: grid;
     gap: 3em 8em;
     grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -11,7 +11,7 @@
     }
 }
 
-.tech-box {
+.analysis-box {
     border: 1px solid $border-color;
 
     &:hover {
@@ -25,7 +25,7 @@
     }
 }
 
-.technology {
+.analysis-content {
     background-color: $box-color;
 
     h3 {
@@ -38,29 +38,8 @@
     }
 }
 
-.sqlite-box {
-    grid-column: span 3;
-    border: 1px solid $border-color;
-    margin-bottom: 2em;
-
-    &:hover {
-        box-shadow: $box-shadow;
-    }
-
-    h3 {
-        text-align: left;
-        padding: 1em;
-    }
-
-    i {
-        padding: 1em;
-        float: right;
-        color: $icon-color;
-    }
-}
-
 @media (max-width: 767px) {
-    .technologies {
+    .analysis {
         padding: 1em;
         gap: 1em;
         grid-template-columns: repeat(1, 1fr);
@@ -69,9 +48,5 @@
         h1 {
             grid-column: span 1;
         }
-    }
-
-    .sqlite-box {
-        grid-column: span 1;
     }
 }

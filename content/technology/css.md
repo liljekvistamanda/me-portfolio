@@ -11,6 +11,8 @@ I CSS använder vi selektorer för att beskriva vilka element vi vill påverka o
 
 Om vi till exempel vill sätta färgen för alla textstycken till blå gör vi på följande sätt.
 
+-----------------------
+
 ```css
 p {
     color: blue;

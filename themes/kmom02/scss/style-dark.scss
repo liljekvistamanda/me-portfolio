@@ -7,23 +7,44 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 
 @import 'variables';
 @import 'blockquotes';
-@import 'code';
-@import 'typography';
+@import 'code-dark';
+@import 'typography-dark';
 @import 'image';
-@import 'technologies';
-@import 'technology-article';
-@import 'analysis';
-@import 'analysis-article';
+@import 'technologies-dark';
+@import 'technology-article-dark';
+@import 'analysis-dark';
+@import 'analysis-article-dark';
 
-@import url('https://fonts.googleapis.com/css2?family=Inter&family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@600&family=Poppins:wght@300&display=swap');
+
+body {
+    background-color: $background-alternative-color;
+}
 
 * {
-    color: $font-color;
-    font-family: 'Inter', sans-serif;
+    color: $font-alternative-color;
+    font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
     border: 0 none;
     margin: 0;
     padding: 0;
+}
+
+a {
+    filter: brightness(0.7) contrast(0.9);
+}
+
+img {
+    filter: brightness(0.7) contrast(1.2);
+}
+
+.title * {
+    color: $font-alternative-color;
+}
+
+.nav a,
+.nav-toggle {
+    color: $font-alternative-color;
 }
 
 .hidden {
@@ -38,7 +59,7 @@ body {
     height: 100%;
     display: flex;
     flex-direction: column;
-    background-color: $background-color;
+    background-color: $background-alternative-color;
     line-height: 1.5rem;
     text-align: center;
 }
@@ -52,20 +73,20 @@ body {
     flex: 0 0 auto;
     display: flex;
     justify-content: space-between;
-    color: $font-color;
+    color: $font-alternative-color;
 }
 
 .footer {
     flex: 0 0 auto;
     display: flex;
     justify-content: space-between;
-    border-top: 1px solid $border-color;
-    background-color: $footer-color;
+    border-top: 1px solid $border-alternative-color;
+    background-color: $footer-alternative-color;
     padding: 0.5em 1em;
     margin-top: auto;
 
     a {
-        color: $font-color;
+        color: $font-alternative-color;
         padding-right: 1em;
     }
 

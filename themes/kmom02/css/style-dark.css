@@ -2,7 +2,7 @@
  * Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  */
-@import url("https://fonts.googleapis.com/css2?family=Inter&family=Roboto+Slab&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@600&family=Poppins:wght@300&display=swap");
 .fa,
 .fas,
 .far,
@@ -6462,9 +6462,9 @@ blockquote {
 code {
   margin: 0 0.1em;
   padding: 0.1em 0.2em;
-  border: 1px solid #0d0d0d;
+  border: 1px solid #f2f2f2;
   border-radius: 0.3em;
-  background: #f5f5f5;
+  background: #0d0d0d;
   font-family: monospace;
   font-size: 0.85rem;
   line-height: 1.9824;
@@ -6472,9 +6472,9 @@ code {
 
 pre {
   padding: 0 1em;
-  border: 1px solid #0d0d0d;
+  border: 1px solid #ccc;
   border-radius: 0.3em;
-  background: #f5f5f5;
+  background: #0d0d0d;
 }
 
 pre code {
@@ -6493,8 +6493,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Roboto Slab", serif;
-  color: #0d0d0d;
+  font-family: "Archivo", sans-serif;
+  color: #f1f1f1;
 }
 
 .vertical-rhythm {
@@ -6618,19 +6618,20 @@ img {
 }
 
 .tech-box {
-  border: 1px solid #0d0d0d;
+  border: 1px solid #f2f2f2;
+  background-color: #404040;
 }
 .tech-box:hover {
-  box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+  box-shadow: 0 0 11px rgba(241, 241, 241, 0.2);
 }
 .tech-box i {
   padding: 1em;
   float: right;
-  color: #333333;
+  color: #f2f2f2;
 }
 
 .technology {
-  background-color: #cdcdcd;
+  background-color: #0d0d0d;
 }
 .technology h3 {
   text-align: left;
@@ -6642,11 +6643,12 @@ img {
 
 .sqlite-box {
   grid-column: span 3;
-  border: 1px solid #0d0d0d;
+  border: 1px solid #f2f2f2;
   margin-bottom: 2em;
+  background-color: #404040;
 }
 .sqlite-box:hover {
-  box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+  box-shadow: 0 0 11px rgba(241, 241, 241, 0.2);
 }
 .sqlite-box h3 {
   text-align: left;
@@ -6655,7 +6657,7 @@ img {
 .sqlite-box i {
   padding: 1em;
   float: right;
-  color: #333333;
+  color: #f2f2f2;
 }
 
 @media (max-width: 767px) {
@@ -6695,12 +6697,12 @@ img {
   margin-top: 15%;
   list-style: none;
   text-align: center;
-  background-color: #cdcdcd;
+  background-color: #0d0d0d;
   padding: 0.5em;
-  border: 1px solid #0d0d0d;
+  border: 1px solid #f2f2f2;
 }
 .sidebar li:hover {
-  box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+  box-shadow: 0 0 11px rgba(241, 241, 241, 0.2);
 }
 
 @media (max-width: 767px) {
@@ -6730,19 +6732,20 @@ img {
 }
 
 .analysis-box {
-  border: 1px solid #0d0d0d;
+  border: 1px solid #f2f2f2;
+  background-color: #404040;
 }
 .analysis-box:hover {
-  box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+  box-shadow: 0 0 11px rgba(241, 241, 241, 0.2);
 }
 .analysis-box i {
   padding: 1em;
   float: right;
-  color: #333333;
+  color: #f2f2f2;
 }
 
 .analysis-content {
-  background-color: #cdcdcd;
+  background-color: #0d0d0d;
 }
 .analysis-content h3 {
   text-align: left;
@@ -6795,12 +6798,12 @@ img {
   margin-top: 15%;
   list-style: none;
   text-align: center;
-  background-color: #cdcdcd;
+  background-color: #0d0d0d;
   padding: 0.5em;
-  border: 1px solid #0d0d0d;
+  border: 1px solid #f2f2f2;
 }
 .sidebar-analysis li:hover {
-  box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+  box-shadow: 0 0 11px rgba(241, 241, 241, 0.2);
 }
 
 @media (max-width: 767px) {
@@ -6817,13 +6820,34 @@ img {
     padding: 1.5em;
   }
 }
+body {
+  background-color: #262626;
+}
+
 * {
-  color: #0d0d0d;
-  font-family: "Inter", sans-serif;
+  color: #f1f1f1;
+  font-family: "Poppins", sans-serif;
   box-sizing: border-box;
   border: 0 none;
   margin: 0;
   padding: 0;
+}
+
+a {
+  filter: brightness(0.7) contrast(0.9);
+}
+
+img {
+  filter: brightness(0.7) contrast(1.2);
+}
+
+.title * {
+  color: #f1f1f1;
+}
+
+.nav a,
+.nav-toggle {
+  color: #f1f1f1;
 }
 
 .hidden {
@@ -6838,7 +6862,7 @@ body {
   height: 100%;
   display: flex;
   flex-direction: column;
-  background-color: #f2f2f2;
+  background-color: #262626;
   line-height: 1.5rem;
   text-align: center;
 }
@@ -6852,20 +6876,20 @@ body {
   flex: 0 0 auto;
   display: flex;
   justify-content: space-between;
-  color: #0d0d0d;
+  color: #f1f1f1;
 }
 
 .footer {
   flex: 0 0 auto;
   display: flex;
   justify-content: space-between;
-  border-top: 1px solid #0d0d0d;
-  background-color: #cdcdcd;
+  border-top: 1px solid #f2f2f2;
+  background-color: #0d0d0d;
   padding: 0.5em 1em;
   margin-top: auto;
 }
 .footer a {
-  color: #0d0d0d;
+  color: #f1f1f1;
   padding-right: 1em;
 }
 .footer .social {

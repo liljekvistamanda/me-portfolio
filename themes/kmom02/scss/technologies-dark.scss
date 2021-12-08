@@ -12,21 +12,22 @@
 }
 
 .tech-box {
-    border: 1px solid $border-color;
+    border: 1px solid $border-alternative-color;
+    background-color: $icon-box-alternative-color;
 
     &:hover {
-        box-shadow: $box-shadow;
+        box-shadow: $box-alternative-shadow;
     }
 
     i {
         padding: 1em;
         float: right;
-        color: $icon-color;
+        color: $icon-alternative-color;
     }
 }
 
 .technology {
-    background-color: $box-color;
+    background-color: $box-alternative-color;
 
     h3 {
         text-align: left;
@@ -40,11 +41,12 @@
 
 .sqlite-box {
     grid-column: span 3;
-    border: 1px solid $border-color;
+    border: 1px solid $border-alternative-color;
     margin-bottom: 2em;
+    background-color: $icon-box-alternative-color;
 
     &:hover {
-        box-shadow: $box-shadow;
+        box-shadow: $box-alternative-shadow;
     }
 
     h3 {
@@ -55,7 +57,7 @@
     i {
         padding: 1em;
         float: right;
-        color: $icon-color;
+        color: $icon-alternative-color;
     }
 }
 
