@@ -1,6 +1,6 @@
 ---
 Title: Colors
-Description: Page for kmom04
+Description: Page for kmom04.
 Template: analysis-article
 ---
 Colors Kmom04
