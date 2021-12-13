@@ -2,7 +2,8 @@
 Title: Hobby
 Description: Page about my hobby
 ---
-![dino](%assets_url%/img/rsz_dino.png#dino)
+
+![dino](%assets_url%/img/rsz_dino.png#dino){.dino}
 
 Min hobby
 ==================

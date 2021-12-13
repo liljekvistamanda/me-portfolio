@@ -2,7 +2,8 @@
 Title: Home
 Description: This is our index page.
 ---
-![logga](%assets_url%/img/logga.png)
+
+![logga](%assets_url%/img/logga.png#logga){.logga}
 
 Home page
 ==========================

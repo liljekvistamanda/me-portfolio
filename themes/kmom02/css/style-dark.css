@@ -6591,8 +6591,42 @@ h6 {
 
 img {
   max-width: 100%;
+}
+
+.dino {
+  max-width: 100%;
   display: block;
   margin-left: auto;
+}
+
+.logga {
+  max-width: 100%;
+  display: block;
+  margin-left: auto;
+}
+
+.axis {
+  max-width: 90%;
+}
+
+.axiscolors {
+  max-width: 30%;
+}
+
+.genetec {
+  max-width: 90%;
+}
+
+.geneteccolors {
+  max-width: 30%;
+}
+
+.hik {
+  max-width: 90%;
+}
+
+.hikcolors {
+  max-width: 30%;
 }
 
 @media (max-width: 767px) {
@@ -6602,6 +6636,14 @@ img {
 }
 @media (max-width: 480px) {
   img {
+    display: none;
+  }
+
+  .dino {
+    display: none;
+  }
+
+  .logga {
     display: none;
   }
 }

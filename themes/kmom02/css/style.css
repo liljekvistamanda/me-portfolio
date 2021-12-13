@@ -6591,8 +6591,42 @@ h6 {
 
 img {
   max-width: 100%;
+}
+
+.dino {
+  max-width: 100%;
   display: block;
   margin-left: auto;
+}
+
+.logga {
+  max-width: 100%;
+  display: block;
+  margin-left: auto;
+}
+
+.axis {
+  max-width: 90%;
+}
+
+.axiscolors {
+  max-width: 30%;
+}
+
+.genetec {
+  max-width: 90%;
+}
+
+.geneteccolors {
+  max-width: 30%;
+}
+
+.hik {
+  max-width: 90%;
+}
+
+.hikcolors {
+  max-width: 30%;
 }
 
 @media (max-width: 767px) {
@@ -6602,6 +6636,14 @@ img {
 }
 @media (max-width: 480px) {
   img {
+    display: none;
+  }
+
+  .dino {
+    display: none;
+  }
+
+  .logga {
     display: none;
   }
 }
@@ -6626,11 +6668,11 @@ img {
 .tech-box i {
   padding: 1em;
   float: right;
-  color: #333333;
+  color: #333;
 }
 
 .technology {
-  background-color: #cdcdcd;
+  background-color: #bfbfbf;
 }
 .technology h3 {
   text-align: left;
@@ -6655,7 +6697,7 @@ img {
 .sqlite-box i {
   padding: 1em;
   float: right;
-  color: #333333;
+  color: #333;
 }
 
 @media (max-width: 767px) {
@@ -6695,7 +6737,7 @@ img {
   margin-top: 15%;
   list-style: none;
   text-align: center;
-  background-color: #cdcdcd;
+  background-color: #bfbfbf;
   padding: 0.5em;
   border: 1px solid #0d0d0d;
 }
@@ -6738,11 +6780,11 @@ img {
 .analysis-box i {
   padding: 1em;
   float: right;
-  color: #333333;
+  color: #333;
 }
 
 .analysis-content {
-  background-color: #cdcdcd;
+  background-color: #bfbfbf;
 }
 .analysis-content h3 {
   text-align: left;
@@ -6795,7 +6837,7 @@ img {
   margin-top: 15%;
   list-style: none;
   text-align: center;
-  background-color: #cdcdcd;
+  background-color: #bfbfbf;
   padding: 0.5em;
   border: 1px solid #0d0d0d;
 }
@@ -6838,7 +6880,7 @@ body {
   height: 100%;
   display: flex;
   flex-direction: column;
-  background-color: #f2f2f2;
+  background-color: #e6e6e6;
   line-height: 1.5rem;
   text-align: center;
 }
@@ -6860,7 +6902,7 @@ body {
   display: flex;
   justify-content: space-between;
   border-top: 1px solid #0d0d0d;
-  background-color: #cdcdcd;
+  background-color: #bfbfbf;
   padding: 0.5em 1em;
   margin-top: auto;
 }
